@@ -7,13 +7,8 @@ A Mutlipurpose tool to install and manage several programs like:
 * **Node**
 
 ## Usage:
-Run the script directly in shell via running (This script will only run using root): 
+**NOTE: This script will only run using root**
 
-```
-curl https://raw.githubusercontent.com/bhardwajkonark/mobius/main/mobius.sh | sudo sh -s 
-# or
-wget -qO- https://raw.githubusercontent.com/bhardwajkonark/mobius/main/mobius.sh | sudo sh -s 
-```
 Step 1: Download the main script:
 ```
 wget https://raw.githubusercontent.com/bhardwajkonark/mobius/main/mobius.sh  -O mobius.sh
