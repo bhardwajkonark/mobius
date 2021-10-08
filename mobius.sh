@@ -451,8 +451,8 @@ install_uwsgi() {
         else
 
             sudo apt install libpython"$version"-dev
-            sudo pip install --upgrade pip
-            sudo pip install --upgrade setuptools
+            sudo python"$version" -m pip install --upgrade pip
+            sudo python"$version" -m pip install --upgrade setuptools
             sudo python"$version" -m pip install uwsgi
             sudo cp /root/.local/bin/uwsgi /usr/local/bin/uwsgi
             sudo mkdir -p /etc/uwsgi/sites
